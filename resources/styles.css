@@ -1,0 +1,557 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+
+}
+
+/*--------------text-------------*/
+
+h2 {
+    font-size: 40px;
+    color: #9b6a45;
+    font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+    font-size: 30px;
+    color: #9b6a45;
+    font-family: 'Amatic SC', cursive;
+}
+
+h4 {
+    font-size: 20px;
+    color: #9b6a45;
+    font-family: 'Amatic SC', cursive;
+}
+
+h5 {
+    font-size: 24px;
+    color: #9b6a45;
+    font-family: 'Amatic SC', cursive;
+    padding-top: 15px;
+}    
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #3e3e3e;
+}
+
+/*--------------a tags-------------*/
+a {
+  position: relative;
+  color: #9b6a45;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+    font-weight: 00
+}
+
+a:hover {
+  color: #af876a;
+}
+
+/* underline transition */
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #214230;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.button {
+    background-color: #214230; /* Green */
+    border: none;
+    color: #e3e3e3;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 125px;
+    font-weight: 600;
+}
+
+.button:hover {
+    color: white;
+    background-color: #375444;
+    transition: all 0.3s ease-in-out 0s;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9b6a45;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/*--------landenberg-------*/
+#landenberg {
+  position: relative;
+  color: #214230;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+    font-weight: 00
+}
+
+#landenberg:hover {
+  color: #3B7756;
+}
+
+/* underline transition */
+#landenberg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9b6a45;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#landenberg:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*-----.reg-link----- */
+.reg-link {
+  position: relative;
+  color: #214230;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 16px;
+  font-weight: 00
+}
+
+.reg-link:hover {
+  color: #3B7756;
+}
+
+/* underline transition */
+.reg-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9b6a45;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.reg-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+span a {
+    color: #717171;
+}
+
+.scroll-to {
+  margin-top: -80px;        /* Size of fixed header */
+  padding-bottom: 80px; 
+  display: block; 
+}
+
+/*--------------header-------------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 25px;
+    font-size: 18px;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    border-bottom: 1px solid #9b6a45;
+    z-index: 20;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.us1 {
+  color: #9b6a45;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 0 25px;
+    display: inline;
+}
+
+nav {
+    padding-right: 25px;
+}
+
+
+/* ---------- banner proposal -------*/
+.content {
+    display: flex;
+    width:1366px; margin:0 auto
+    
+}
+
+.proposal {
+    flex-direction: column;
+    height: 679px;
+    align-items: center;
+    background-image: url(images/CG020205.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 80px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.proposal h1{
+    
+    font-size: 100px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    color: white;
+    text-shadow: 1px 2px #9b6a45;
+    
+}
+
+.date{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px #333;
+}
+
+/* ------- rsvp -------*/
+.rsvp {
+    background-color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid #214230;
+    border-top: 1px solid #214230;
+}
+
+.rsvp h3{
+    color: #214230;
+}
+
+
+
+/* ------- venue -------*/
+
+.venue {
+    height: 581px;
+    align-items: center;
+    background-image: url(images/barn3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.venue-info {
+    background-color: rgba(227, 227, 227, 0.8);
+    padding: 20px;
+    width: 30%
+
+}
+#address {
+    font-family: 'open sans', sans-serif;
+}
+.venue-info p {
+    padding-top: 5px;
+}
+
+/*-------- registery --------*/
+.registry {
+    display: flex;
+    height: 150px;
+    background-color: #dde4db;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    border-bottom: 1px solid #214230;
+    border-top: 1px solid #214230;
+}
+.registry p{
+    padding: 10px;
+}
+
+.registry h2{
+    color: #214230;
+}
+
+/*-------------- hotel --------*/
+
+.hotel {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background-color: #dde4db;
+    width: 1366px;
+    border-top: 1px solid #9b6a45;
+}
+
+.reg{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: flex-start;
+    max-width: 33%;
+    padding-right: 30px;
+    border-right: 1px solid #9b6a45;
+}
+
+.hotel-info {
+    display: flex;
+    padding-left: 30px;
+}
+
+.hotel-details {
+    padding-right: 20px;
+}
+
+
+
+.hotel h2{
+    padding-bottom: 20px;
+}
+
+.hotel h3{
+    padding-bottom: 5px;
+}
+
+.directions {
+    padding-top: 60px;
+}
+
+#booking{
+    font-weight: 800;
+}
+
+.hotel p{
+    padding:10px 0;
+}
+/* ------ engagement ------*/
+.photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #9b6a45;
+    border-bottom: 1px solid #9b6a45;
+    padding-bottom: 50px;
+}
+.photos h2{
+    padding: 50px 0 5 0;
+    margin-top: 20px;
+}
+
+.photos h4 {
+    padding-bottom: 15px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+  border: 1px solid #9b6a45;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* ------- visit -------*/
+
+.to-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 0px;
+    background-color: #dde4db;
+    border-bottom: 1px solid #9b6a45;
+    padding-bottom: 50px;
+}
+
+#to-do-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.visit {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+.place {
+    border: 1px solid #9b6a45;
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    
+}
+
+.place p{
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #b1b1b1;
+    line-height: 1.2;
+}
+
+.button2 {
+    background-color: #9b6a45; /* Green */
+    border: none;
+    color: #e3e3e3;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+      position: relative;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+.button2:hover {
+  color: white;
+  background-color: #af876a;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.place img{
+    width: 300px;
+    height: 300px;
+}
+
+.place-info{
+    width: 300px;
+}
+
+.place h3 {
+    padding: 10px 0;
+}
+
+
+
+/* ------- footer -------*/
+footer {
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+    align-items: center;
+    padding-left: 25px;
+    font-family: 'open sans', sans-serif;
+    font-size: 12px;
+    width:1366px; margin:0 auto
+}
+
