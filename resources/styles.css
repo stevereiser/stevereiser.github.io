@@ -108,7 +108,7 @@ a:hover:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-/*--------landenberg-------*/
+/*-------------landenberg-------------*/
 #landenberg {
   position: relative;
   color: #214230;
@@ -298,7 +298,7 @@ nav {
 
 
 
-/* ------- venue -------*/
+/* ------------ venue ------------*/
 
 .venue {
     height: 581px;
@@ -312,7 +312,7 @@ nav {
 .venue-info {
     background-color: rgba(227, 227, 227, 0.8);
     padding: 20px;
-    width: 30%
+    width: 40%
 
 }
 #address {
@@ -322,7 +322,7 @@ nav {
     padding-top: 5px;
 }
 
-/*-------- registery --------*/
+/*------------- registery -------------*/
 .registry {
     display: flex;
     height: 150px;
@@ -342,7 +342,7 @@ nav {
     color: #214230;
 }
 
-/*-------------- hotel --------*/
+/*-------------- hotel -------------*/
 
 .hotel {
     display: flex;
@@ -373,7 +373,6 @@ nav {
 }
 
 
-
 .hotel h2{
     padding-bottom: 20px;
 }
@@ -393,7 +392,8 @@ nav {
 .hotel p{
     padding:10px 0;
 }
-/* ------ engagement ------*/
+
+/* --------- engagement ----------*/
 .photos{
     display: flex;
     flex-direction: column;
@@ -476,7 +476,7 @@ nav {
   to {opacity: 1}
 }
 
-/* ------- visit -------*/
+/* ------------- visit ------------*/
 
 .to-do {
     display: flex;
@@ -550,7 +550,7 @@ nav {
 
 
 
-/* ------- footer -------*/
+/* ------------- footer -------------*/
 footer {
     display: flex;
     justify-content: flex-start;
