@@ -239,7 +239,7 @@ nav {
 }
 
 
-/* ---------- banner proposal -------*/
+/* ---------- banner proposal -----------*/
 .content {
     display: flex;
     width:1366px; margin:0 auto
@@ -270,6 +270,13 @@ nav {
 .date{
     font-size: 40px;
     color: white;
+    text-shadow: 1px 1px #333;
+}
+
+.hastag{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
     text-shadow: 1px 1px #333;
 }
 
