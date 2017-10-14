@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
-
+   
 }
 
 /*--------------text-------------*/
@@ -108,7 +108,7 @@ a:hover:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-/*-------------landenberg-------------*/
+/*-------------landenberg link-------------*/
 #landenberg {
   position: relative;
   color: #214230;
@@ -238,15 +238,54 @@ nav {
     padding-right: 25px;
 }
 
+/*-----750px wide------*/
+@media screen and (max-width: 750px) {
+    .logo-names{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    li{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        padding-right: 0;
+    }
+    header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 0 25px;
+    font-size: 18px;
+    position: fixed;
+    background-color: white; 
+    top: 0; 
+    width: 100%;
+    border-bottom: 1px solid #9b6a45;
+    z-index: 20;
+    }
+}
 
 /* ---------- banner proposal -----------*/
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .content {
     display: flex;
-    width:1366px; margin:0 auto
+    width:1366px; 
+    margin:0 auto;
     
 }
 
 .proposal {
+    display: flex;
     flex-direction: column;
     height: 679px;
     align-items: center;
@@ -280,6 +319,16 @@ nav {
     text-shadow: 1px 1px #333;
 }
 
+/*-----750px wide------*/
+@media screen and (max-width: 750px) {
+    .content{
+        width: 750px;
+    }
+    .proposal{
+        margin-top: 200px;
+
+    }
+}
 /* ------- rsvp -------*/
 .rsvp {
     background-color: white;
@@ -322,6 +371,13 @@ nav {
     padding-top: 5px;
 }
 
+/*------media 750-------*/
+@media screen and (max-width: 750px) {
+    .venue-info{
+        width: 100%;
+        height: 100%;
+    }
+}
 /*------------- registery -------------*/
 .registry {
     display: flex;
@@ -342,6 +398,8 @@ nav {
     color: #214230;
 }
 
+
+
 /*-------------- hotel -------------*/
 
 .hotel {
@@ -349,14 +407,13 @@ nav {
     justify-content: space-around;
     padding: 30px 20px;
     background-color: #dde4db;
-    width: 1366px;
+    
     border-top: 1px solid #9b6a45;
 }
 
 .reg{
     display: flex;
     flex-direction: column;
-    
     align-content: flex-start;
     max-width: 33%;
     padding-right: 30px;
@@ -393,6 +450,45 @@ nav {
     padding:10px 0;
 }
 
+/*------media 750---------*/
+@media screen and (max-width: 750px) {
+    .hotel{
+        flex-direction: column;
+        width: 750px;
+    }
+    .reg{
+        flex-direction: column;
+        max-width: 100%; 
+        align-items: center;
+        border-right: none;
+        padding-right: 0;
+    }
+    .hotel-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hotel-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button{
+        width: 100%;       
+    }
+    .hotel-details h2{
+        padding-top: 30px;
+    }
+    .hotel p{
+        text-align: center;
+    }
+    .directions {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+}
 /* --------- engagement ----------*/
 .photos{
     display: flex;
@@ -522,9 +618,9 @@ nav {
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
-      position: relative;
-  text-decoration: none;
-  font-family: 'Amatic SC', cursive;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
 }
 
 
@@ -548,7 +644,30 @@ nav {
     padding: 10px 0;
 }
 
-
+/*------media 750-------*/
+@media screen and (max-width: 750px) {
+    .place img{
+         display: none;
+    }
+    .visit {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    }
+    .place{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .place-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .button2{
+        width: 100%;
+    }
+}
 
 /* ------------- footer -------------*/
 footer {
@@ -561,4 +680,8 @@ footer {
     font-size: 12px;
     width:1366px; margin:0 auto
 }
-
+@media screen and (max-width: 750px) {
+    footer{
+        width: 750px;
+    }
+}
