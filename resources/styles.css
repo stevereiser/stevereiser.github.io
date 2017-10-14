@@ -268,7 +268,7 @@ nav {
     width: 100%;
     border-bottom: 1px solid #9b6a45;
     z-index: 20;
-    width: 750px;
+    width: 100%;
     }
 }
 /*-----750px device wide------*/
@@ -354,7 +354,7 @@ nav {
 /*-----750px wide------*/
 @media screen and (max-width: 750px) {
     .content{
-        width: 750px;
+        width: 100%;
     }
     .proposal{
         margin-top: 200px;
@@ -366,13 +366,13 @@ nav {
 
     .hastag{
     font-size: 50px;
-}
+    }
 }
 
 /*-----750px devicewide------*/
 @media screen and (max-device-width: 750px) {
     .content{
-        width: 750px;
+        width: 100%;
     }
     .proposal{
         margin-top: 200px;
@@ -520,7 +520,7 @@ nav {
 @media screen and (max-width: 750px) {
     .hotel{
         flex-direction: column;
-        width: 750px;
+        width: 100%;
     }
     .reg{
         flex-direction: column;
@@ -559,7 +559,7 @@ nav {
 @media screen and (max-device-width: 750px) {
     .hotel{
         flex-direction: column;
-        width: 750px;
+        width: 100%;
     }
     .reg{
         flex-direction: column;
@@ -811,13 +811,13 @@ footer {
 /*-------media 750------------*/
 @media screen and (max-width: 750px) {
     footer{
-        width: 750px;
+        width: 100%;
     }
 }
 
 /*-------media 750 device------------*/
 @media screen and (max-device-width: 750px) {
     footer{
-        width: 750px;
+        width: 100%;
     }
 }
