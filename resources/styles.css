@@ -353,7 +353,7 @@ nav {
 /*-----750px wide------*/
 @media screen and (max-width: 750px) {
     .content{
-        width: 750px;
+        width: 600px;
     }
     .proposal{
         margin-top: 200px;
@@ -364,7 +364,7 @@ nav {
 /*-----750px devicewide------*/
 @media screen and (max-device-width: 750px) {
     .content{
-        width: 750px;
+        width: 600px;
     }
     .proposal{
         margin-top: 200px;
