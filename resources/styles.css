@@ -465,11 +465,11 @@ nav {
 /*------media 750-------*/
 @media screen and (max-width: 750px) {
     .venue-info{
-        width: 100%;
-        height: 100%;
+     width: 100%;
+    height: 100%;
     }
     .venue{
-    height: 100%;
+    height: 850px;;
     background-position: bottom;
     }
 }
@@ -481,7 +481,7 @@ nav {
         height: 100%;
     }
     .venue{
-    height: 100%;
+    height: 850px;
     background-position: bottom;       
     }
 }
@@ -587,7 +587,7 @@ nav {
     }
     .hotel p{
         text-align: center;
-        font-size: 18px
+        font-size: 18px;
     }
     .directions {
         padding-top: 0px;
