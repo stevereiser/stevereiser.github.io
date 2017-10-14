@@ -470,7 +470,7 @@ nav {
     }
     .venue{
     height: 100%;
-    background-repeat: repeat;
+    background-position: bottom;
     }
 }
 
@@ -482,7 +482,7 @@ nav {
     }
     .venue{
     height: 100%;
-    background-repeat: repeat;        
+    background-position: bottom;       
     }
 }
 /*------------- registery -------------*/
@@ -580,7 +580,7 @@ nav {
         align-items: center;
     }
     .button{
-        width: 100%;       
+        width: 50%;       
     }
     .hotel-details h2{
         padding-top: 30px;
@@ -623,7 +623,7 @@ nav {
         align-items: center;
     }
     .button{
-        width: 100%;       
+        width: 50%;       
     }
     .hotel-details h2{
         padding-top: 30px;
