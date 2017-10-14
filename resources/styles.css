@@ -270,7 +270,38 @@ nav {
     z-index: 20;
     }
 }
-
+/*-----750px device wide------*/
+@media screen and (max-device-width: 750px) {
+    .logo-names{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    li{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        padding-right: 0;
+    }
+    header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 0 25px;
+    font-size: 18px;
+    position: fixed;
+    background-color: white; 
+    top: 0; 
+    width: 100%;
+    border-bottom: 1px solid #9b6a45;
+    z-index: 20;
+    }
+}
 /* ---------- banner proposal -----------*/
 .container {
     display: flex;
@@ -329,6 +360,18 @@ nav {
 
     }
 }
+
+/*-----750px devicewide------*/
+@media screen and (max-device-width: 750px) {
+    .content{
+        width: 750px;
+    }
+    .proposal{
+        margin-top: 200px;
+
+    }
+}
+
 /* ------- rsvp -------*/
 .rsvp {
     background-color: white;
