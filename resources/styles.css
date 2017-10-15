@@ -476,7 +476,7 @@ nav {
     height: 100%;
     }
     .venue{
-    height: 1100px;
+    height: 1200px;
     background-image: none;
     }
 }
@@ -488,7 +488,7 @@ nav {
     height: 100%;
     }
     .venue{
-    height: 1100px;
+    height: 1200px;
     background-image: none;       
     }
 }
@@ -576,7 +576,8 @@ nav {
         align-items: center;
         border-right: none;
         padding-right: 0;
-        border-bottom: 1px solid #9b6a45;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
     .hotel-info{
         flex-direction: column;
@@ -620,8 +621,7 @@ nav {
         max-width: 100%; 
         align-items: center;
         border-right: none;
-        padding-right: 0;
-        border-bottom: 1px solid #9b6a45;        
+        padding-right: 0;        
     }
     .hotel-info{
         flex-direction: column;
