@@ -283,8 +283,11 @@ nav {
     font-size: 40px;
     }
     #landenberg {
-    font-size: 13px;
+    font-size: 16px;
     }
+    a {
+    font-size: 30px;
+}
 }
 /*-----750px device wide------*/
 @media screen and (max-device-width: 750px) {
@@ -325,6 +328,7 @@ nav {
     }  
     h2 {
     font-size: 70px;
+    text-align: center;
     }
     h3 {
     font-size: 50px;
@@ -333,8 +337,11 @@ nav {
     font-size: 40px;
     }
     #landenberg {
-    font-size: 13px;
+    font-size: 16px;
     }
+    a {
+    font-size: 30px;
+}    
 }
 /* ---------- banner proposal -----------*/
 .container {
@@ -470,7 +477,7 @@ nav {
     }
     .venue{
     height: 1100px;
-    background-position: bottom;
+    background-image: none;
     }
 }
 
@@ -482,7 +489,7 @@ nav {
     }
     .venue{
     height: 1100px;
-    background-position: bottom;       
+    background-image: none;       
     }
 }
 /*------------- registery -------------*/
@@ -569,6 +576,7 @@ nav {
         align-items: center;
         border-right: none;
         padding-right: 0;
+        border-bottom: 1px solid #9b6a45;
     }
     .hotel-info{
         flex-direction: column;
@@ -580,7 +588,8 @@ nav {
         align-items: center;
     }
     .button{
-        width: 50%;       
+        width: 50%; 
+        margin-bottom: 40px;
     }
     .hotel-details h2{
         padding-top: 30px;
@@ -612,6 +621,7 @@ nav {
         align-items: center;
         border-right: none;
         padding-right: 0;
+        border-bottom: 1px solid #9b6a45;        
     }
     .hotel-info{
         flex-direction: column;
@@ -623,7 +633,8 @@ nav {
         align-items: center;
     }
     .button{
-        width: 50%;       
+        width: 50%;
+        border-bottom: 40px;
     }
     .hotel-details h2{
         padding-top: 30px;
