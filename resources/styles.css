@@ -408,13 +408,13 @@ nav {
 }
 
 .date{
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     text-shadow: 1px 1px #333;
 }
 
 .hastag{
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     padding-top: 30px;
     text-shadow: 1px 1px #333;
@@ -489,7 +489,7 @@ nav {
 .venue-info {
     background-color: rgba(227, 227, 227, 0.8);
     padding: 20px;
-    width: 40%;
+    width: 45%;
 
 }
 #address {
