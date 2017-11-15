@@ -239,21 +239,21 @@ nav {
         display: none;
     }
     ul{
-        display: flex;
+        display: none;
         justify-content: center;
         
     }
     li{
-        display: flex;
+        display: none;
         justify-content: center;
     }
     nav{
         padding-right: 0;
     }
     header{
-    display: none;
+    display: flex;
     justify-content: center;
-    height: 80px;
+    height: 1px;
     padding: 0 25px;
     font-size: 18px;
     position: fixed;
@@ -292,21 +292,21 @@ nav {
         display: none;
     }
    ul{
-        display: flex;
+        display: none;
         justify-content: center;
         
     }
     li{
-        display: flex;
+        display: none;
         justify-content: center;
     }
     nav{
         padding-right: 0;
     }
     header{
-    display: none;
+    display: flex;
     justify-content: center;
-    height: 80px;
+    height: 1px;
     padding: 0 25px;
     font-size: 18px;
     position: fixed;
