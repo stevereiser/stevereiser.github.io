@@ -251,7 +251,7 @@ nav {
         padding-right: 0;
     }
     header{
-    display: flex;
+    display: none;
     justify-content: center;
     height: 80px;
     padding: 0 25px;
@@ -304,7 +304,7 @@ nav {
         padding-right: 0;
     }
     header{
-    display: flex;
+    display: none;
     justify-content: center;
     height: 80px;
     padding: 0 25px;
@@ -380,7 +380,7 @@ nav {
 /*-----------------------------make 100percent-------------------*/
 .content {
     display: flex;
-    width:1366px; 
+    width: 1366px; 
     margin:0 auto;
     
 }
@@ -423,10 +423,10 @@ nav {
 /*-----750px wide------*/
 @media screen and (max-width: 750px) {
     .content{
-        width: 720px;
+        width: 100%;
     }
     .proposal{
-    margin-top: 80px;
+    margin-top: 0px;
     }
     .date{
     font-size: 60px;
@@ -441,10 +441,10 @@ nav {
 /*-----750px devicewide------*/
 @media screen and (max-device-width: 750px) {
     .content{
-        width: 720px;;
+        width: 100%;
     }
     .proposal{
-     margin-top: 80px;
+     margin-top: 0px;
     }
     .date{
     font-size: 60px;
@@ -489,7 +489,9 @@ nav {
 .venue-info {
     background-color: rgba(227, 227, 227, 0.8);
     padding: 20px;
-    width: 45%;
+    min-width: 45%;
+    max-width: 60%;
+    max-height: 581px;
 
 }
 #address {
@@ -502,12 +504,14 @@ nav {
 /*------media 750-------*/
 @media screen and (max-width: 750px) {
     .venue-info{
-     width: 100%;
-    height: 100%;
+     width: 100%;;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: none;
     }
     .venue{
-    height: 1200px;
-    background-image: none;
+      background-image: none;
+      height: 100%  
     }
 }
 
@@ -515,11 +519,12 @@ nav {
 @media screen and (max-device-width: 750px) {
     .venue-info{
     width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: none;
     }
     .venue{
-    height: 1400px;
-    background-image: none;       
+    background-image: none;  
     }
 }
 /*------------- registery -------------*/
@@ -542,7 +547,19 @@ nav {
     color: #214230;
 }
 
+/*------media 750-------*/
+@media screen and (max-width: 750px) {
+    .reg{
+    border-bottom: 1px solid #9b6a45;
+    }
+    }
 
+/*------media 750 device-------*/
+@media screen and (max-device-width: 750px) {
+    .reg{
+    border-bottom: 1px solid #9b6a45;
+    }
+}
 
 /*-------------- hotel -------------*/
 
@@ -573,7 +590,6 @@ nav {
     padding-right: 20px;
 }
 
-
 .hotel h2{
     padding-bottom: 20px;
 }
@@ -598,7 +614,7 @@ nav {
 @media screen and (max-width: 750px) {
     .hotel{
         flex-direction: column;
-        width: 720px;
+        width: 100%;
     }
     .reg{
         flex-direction: column;
@@ -644,7 +660,7 @@ nav {
 @media screen and (max-device-width: 750px) {
     .hotel{
         flex-direction: column;
-        width: 720px;
+        width: 100%;
     }
     .reg{
         flex-direction: column;
