@@ -545,7 +545,6 @@ nav {
     justify-content: space-around;
     padding: 30px 20px;
     background-color: #dde4db;
-    
     border-top: 1px solid #9b6a45;
 }
 
@@ -577,6 +576,7 @@ nav {
 
 .directions {
     padding-top: 60px;
+    width: 
 }
 
 #booking{
@@ -605,6 +605,7 @@ nav {
     .hotel-info{
         flex-direction: column;
         align-items: center;
+        padding-left: 0px;
     }
     .hotel-details{
         display: flex;
@@ -620,7 +621,7 @@ nav {
     }
     .hotel p{
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
     }
     .directions {
         padding-top: 0px;
@@ -631,6 +632,7 @@ nav {
     .button {
         font-size: 30px;
     }
+
 
 }
 
@@ -650,6 +652,7 @@ nav {
     .hotel-info{
         flex-direction: column;
         align-items: center;
+        padding-left: 0px;
     }
     .hotel-details{
         display: flex;
@@ -665,7 +668,7 @@ nav {
     }
     .hotel p{
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
     }
     .directions {
         padding-top: 0px;
