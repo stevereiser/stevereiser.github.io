@@ -113,9 +113,9 @@ a:hover:before {
 #landenberg {
   position: relative;
   color: #214230;
-  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
+  line-height: 25px;
 }
 
 #landenberg:hover {
@@ -191,7 +191,7 @@ span a {
   display: block; 
 }
 
-/*--------------header-------------*/
+/*------------- header ------------------------------------------------------------------------------*/
 
 header{
     display: flex;
@@ -204,7 +204,7 @@ header{
     position: fixed; 
     top: 0; 
     width: 100%;
-    border-bottom: 1px solid #9b6a45;
+    border-bottom: 2px solid #9b6a45;
     z-index: 20;
 }
 
@@ -243,8 +243,6 @@ nav {
     }
     header{
     display: none;
-    border: none;
-
     }
     p{
     font-size: 22px;
@@ -253,7 +251,7 @@ nav {
     font-size: 40px;
     }  
     h2 {
-    font-size: 70px;
+    font-size: 60px;
     }
     h3 {
     font-size: 50px;
@@ -283,9 +281,7 @@ nav {
         display: none;
     }
     header{
-    display: none;
-    border: none;
-
+        display: none;
     }
     p{
     font-size: 22px;
@@ -294,7 +290,7 @@ nav {
     font-size: 40px;
     }  
     h2 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     }
     h3 {
@@ -316,18 +312,23 @@ nav {
     text-align: center;
     }
 }
-/* ---------- day of -----------*/
+/* -- Day of page Timeline -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .mobilebody {
     background-color: #dde4db;
 }
 .mobile-head {
-    justify-content: center;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 .mobileh2 {
     font-size: 50px;
 }
 .mobile-header {
     font-size: 40px;
+    text-align: center;
+    padding-top: 18px;
 }
 .mobile-text {
     font-size: 20px;
@@ -337,16 +338,43 @@ nav {
 #topcard {
     margin-top: 100px;
 }
+.mobile-head a{
+    display: inline;
+    text-align: left;
+    position: absolute;
+    margin-top: 25px;
+    padding: 3px 5px;
+    border: 1px solid #9b6a45;
+    font-size: 20px
+}
+
+.mobile-head .button{
+    width: 50px;
+}
 
 .time-card {
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     border: 1px solid #9b6a45;
-    padding: 15px;
+    border-bottom: 2px solid #9b6a45;
+    padding: 20px;
 }
+i {
+    border: solid #9b6a45;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
 
 /* ---------- banner proposal -----------*/
 .container {
@@ -371,6 +399,7 @@ nav {
     background-position: center;
     margin-top: 80px;
     font-family: 'Amatic SC', cursive;
+    border-bottom: 1px solid #9b6a45;
 }
 
 .proposal h1{
@@ -436,20 +465,35 @@ nav {
 /* ------- rsvp -------*/
 .rsvp {
     background-color: white;
-    height: 150px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    border-bottom: 1px solid #214230;
-    border-top: 1px solid #214230;
+    border-top: 1px solid #9b6a45;
+    margin-bottom: -100px;
+
 }
 
 .rsvp h3{
     color: #214230;
+    padding-top: 30px;
+    font-size: 40px;
 }
 
+/*-----750px wide------*/
+@media screen and (max-width: 750px) {
+    .rsvp h3{
+        font-size: 60px;
+    }
+}
 
+/*-----750px devicewide------*/
+@media screen and (max-device-width: 750px) {
+    .rsvp h3{
+        font-size: 60px;
+    }
+}
 
 /* ------------ venue ------------*/
 
@@ -461,6 +505,7 @@ nav {
     background-position: center;
     font-family: 'Amatic SC', cursive;
     overflow: hidden;
+    border-top: 1px solid #9b6a45;
 }
 
 .venue-info {
@@ -488,7 +533,8 @@ nav {
     }
     .venue{
       background-image: none;
-      height: 100%  
+        background-color: white;
+      height: 100%; 
     }
 }
 
@@ -501,7 +547,9 @@ nav {
     max-height: none;
     }
     .venue{
-    background-image: none;  
+    background-image: none;
+    background-color: white;
+    height: 100%; 
     }
 }
 /*------------- registery -------------*/
