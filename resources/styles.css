@@ -483,11 +483,10 @@ i {
     align-items: center;
     align-content: center;
     border-top: 1px solid #9b6a45;
+    margin-bottom: 30px;
    /*--temporary
     
     margin-bottom: -100px; --*/
-    margin-bottom: 30px;
-
 
 }
 
