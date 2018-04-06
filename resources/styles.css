@@ -109,6 +109,11 @@ a:hover:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+
+#dayof {
+    width: 50%;
+    margin-top: 10px;
+}
 /*-------------landenberg link-------------*/
 #landenberg {
   position: relative;
@@ -387,6 +392,9 @@ i {
     -webkit-transform: rotate(135deg);
 }
 
+#dayof{
+    width: 100%;
+}
 
 /* ---------- banner proposal -----------*/
 .container {
