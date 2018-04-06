@@ -502,7 +502,7 @@ i {
         font-size: 60px;   
     }
     .rsvp {
-        height: 800px;
+        min-height: 600px;
     }
 }
 
@@ -512,7 +512,7 @@ i {
         font-size: 60px;
     }
     .rsvp {
-        height: 800px;
+        min-height: 600px;
     }
 }
 
