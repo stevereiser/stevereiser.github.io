@@ -499,7 +499,10 @@ i {
 /*-----750px wide------*/
 @media screen and (max-width: 750px) {
     .rsvp h3{
-        font-size: 60px;
+        font-size: 60px;   
+    }
+    .rsvp {
+        height: 600px;
     }
 }
 
@@ -507,6 +510,9 @@ i {
 @media screen and (max-device-width: 750px) {
     .rsvp h3{
         font-size: 60px;
+    }
+    .rsvp {
+        height: 600px;
     }
 }
 
