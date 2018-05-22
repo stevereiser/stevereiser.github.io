@@ -112,7 +112,14 @@ a:hover:before {
 
 #dayof {
     width: 50%;
-    margin-top: 10px;
+    margin: 20px 10px 20px 0px;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #9b6a45;
+    
+    
 }
 /*-------------landenberg link-------------*/
 #landenberg {
@@ -493,7 +500,6 @@ i {
     border-top: 1px solid #9b6a45;
     margin-bottom: 30px;
     height: 100%;
-    
     margin-bottom: 5px; 
 
 }
